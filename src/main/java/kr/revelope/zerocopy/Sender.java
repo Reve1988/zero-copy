@@ -27,8 +27,8 @@ public class Sender {
 			long transferSize = send(socketChannel, fileChannel, zeroCopy);
 			long endTime = System.currentTimeMillis();
 
-			LOGGER.info("Total bytes transferred {}", transferSize);
-			LOGGER.info("Time taken in MS {}", (endTime - startTime));
+			LOGGER.info("Transferred {}bytes.", transferSize);
+			LOGGER.info("Time taken in {}ms.", (endTime - startTime));
 		} catch (IOException e) {
 			LOGGER.error("Send error", e);
 		} finally {
