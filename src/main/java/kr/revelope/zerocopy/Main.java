@@ -4,7 +4,7 @@ public class Main {
 	private final static String SERVER = "server";
 	private final static String CLIENT = "client";
 
-	public static void main(String[] arguments) throws InterruptedException {
+	public static void main(String[] arguments) {
 		if (isInvalid(arguments)) {
 			System.out.println("Usage : java -jar [jarfile] [server|client] [options]");
 			return;
