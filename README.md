@@ -4,6 +4,8 @@ This is a tool for testing zero copy using Java.
 
 This tool is using Java NIO and using transferTo function for zero-copy.
 
+required jdk 1.8+
+
 #### 1. Build or Download
 
 You can compile this tool yourself.
