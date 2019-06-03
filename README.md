@@ -66,5 +66,5 @@ $ jps
 
 #### 4. Article
 
-- English : https://www.ibm.com/developerworks/linux/library/j-zerocopy/
+- English : https://developer.ibm.com/articles/j-zerocopy/
 - Korean : https://kgw1988.blog.me
